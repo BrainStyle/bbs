@@ -1,9 +1,8 @@
-title: devlopr
-subtitle: A Jekyll Theme Built for Developers
-description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a Jekyll Theme Built For Developers
+title: BrainStyleD
+subtitle: A pager for Brain Styled innovation.
+description: Visual Therapy>- # this means to ignore newlines until "baseurl:"
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "http://C411.gq" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
@@ -25,33 +24,25 @@ urls:
 # Edit these details
 
 author_logo: profile.png
-author: John Doe
-author_bio: Web Designer and Developer
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
+author: Bryan Laybourn
+athor_bio: Web Designer and Developer
+author_email: "saboter@gmail.com"
+author_location: Memphis, TN
+author_website_url: "http://c411.gq"
 
 author_work_experiences:
-            - company_name: Google
+            - company_name: BrainStyleD
               company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+              company_url: https://c411.gq
+              designation: Media engineer
+              description: Worked on various Products
               visibility: true
-            - company_name: Microsoft
+            - company_name: Southwest Tennessee Community College
               company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+              company_url: https://southwest.tn.edu
+              designation: Student Leader/Student Activities Leader/Flyer Designer
+              description: Worked on various Office and Design related Products
               visibility: true
-
-author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: true
 
 author_project_details:
               - project_thumbnail: gamershub.png
@@ -66,28 +57,23 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  johndoe
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+#twitter_username: 
+#github_username:  BrainStyle
+facebook_username: Bryan Laybourn
+#linkedin_username: Bryan Laybourn
+instagram_username: 7ivi7
 
 #for comments using disqus
-disqus_shortname: sujay-kundu
+#disqus_shortname: sujay-kundu
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+#wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+# mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # formspree (contact form)
-formspree_email: johndoe@gmail.com
+formspree_email: saboter@gmail.com
 
 # syntax highlighter
 markdown: kramdown
@@ -95,11 +81,11 @@ highlighter: rouge
 permalink: pretty
 
 # google analytics
-google_analytics: UA-46783401-10
+#google_analytics: UA-46783401-10
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
-show_author_education_details: true
+show_author_education_details: false
 show_author_project_details: true
 
 # algolia search
@@ -152,8 +138,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-algolia
   - jekyll-menus
-
-
+  - jekyll-admin
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
